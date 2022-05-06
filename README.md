@@ -41,3 +41,11 @@ WHERE B.customer_id is null;
 
 //INSERT INTO `order_product` (`order_id`, `product_id`, `quantity`) 
 VALUES ('5', '1', '1'), ('5', '3', '1') 
+
+
+## ajouter une commande à 3 produits
+
+INSERT INTO orders (number, customer_id, date) VALUES (8, 3, NOW());
+INSERT INTO order_product VALUES (8, 4, 1);
+INSERT INTO order_product VALUES (8, 2, 1);
+INSERT INTO order_product VALUES (8, 3, 1);
