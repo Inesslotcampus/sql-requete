@@ -44,8 +44,7 @@ VALUES ('5', '1', '1'), ('5', '3', '1')
 
 
 ## ajouter une commande à 3 produits
-
-INSERT INTO orders (number, customer_id, date) VALUES (8, 3, NOW());
-INSERT INTO order_product VALUES (8, 4, 1);
-INSERT INTO order_product VALUES (8, 2, 1);
-INSERT INTO order_product VALUES (8, 3, 1);
+INSERT INTO orders (number, customer_id, date) VALUES ('0000000006', 3, NOW());
+INSERT INTO order_product VALUES (6, 4, 1);
+INSERT INTO order_product VALUES (6, 2, 1);
+INSERT INTO order_product VALUES (6, 3, 1);
